@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyodide_react_demo"
+description = "Actual structured project with pyodide and react"
+version = "0.1.0"
+authors = [
+    { name = "Niels Zeilemaker", email = "nielszeilemaker@godatadriven.com" }
+]
+
+[tools.setuptools]
+packages = [
+    { include = "pyodide_react_demo" }
+]
